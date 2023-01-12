@@ -177,9 +177,9 @@ h4 span{
     background-color: cornsilk;
 }
 
-article{
+.SideShows_Lolla{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 }
 
