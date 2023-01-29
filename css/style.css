@@ -299,8 +299,15 @@ footer{
     grid-template-rows: 300px;
 }
 
-.caja_de_texto{
+.cajatexto_flex{
+    padding: 40px;
+    margin: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: row;
     background-color: white;
+}
+.caja_de_texto{
+
     color: black;
     font-size: 15px;
     text-align: left;
@@ -324,3 +331,4 @@ footer{
     transition-property: all;
     transition-duration: 2s;
 }
+
