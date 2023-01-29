@@ -332,3 +332,15 @@ footer{
     transition-duration: 2s;
 }
 
+/* BOOTSTRAP - FAQS */ 
+
+.accordion-item{
+    font-family: profile-pro, sans-serif ;
+    background-color: #f9dce9;
+    color: #e20074;
+}
+
+.accordion-header{
+    background-color: #e20074;
+    color: #f6adc8;
+}

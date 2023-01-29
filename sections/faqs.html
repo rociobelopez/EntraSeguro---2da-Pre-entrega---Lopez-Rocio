@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Preguntas Frecuentes (FAQS)</title>
 </head>
@@ -41,17 +42,38 @@
             <a href="./ayudaenlinea.html">AYUDA EN LINEA</a></p>
     </section>
     <article>
-        <h3>¿Cómo puedo saber si es segura esta pagina?</h3>
-        <p>Nosotros garantizamos que cada vendedor y comprador sean reales, al igual que las entradas. Con una sofisticada metodologia de seguridad, ¡nos aseguramos que todo sea 100% real!</p>
-        <h4>¿Te fue util esta respuesta? ¡Compartila con el que lo necesite!</h4>
-            <img class="iconos" src="../img/icons8-compartir-3.svg" alt="icono de compartir. Simbolo de una flecha dentro de una especie de caja.">
-    </article>
-    <article>
-        <h3>En caso de tener un problema, ¿puedo gestionar un reclamo con ustedes?</h3>
-        <p>¡CLARO QUE SI! Siempre tratamos que la resolucion sea entre el comprador y el vendedor mediante el chat de nuestra plataforma pero en caso de ser necesario tenes disponible nuestro apartado de 
-            <a href="./ayudaenlinea.html">AYUDA EN LINEA</a></p>
-        <h4>¿Te fue util esta respuesta? ¡Compartila con el que lo necesite!</h4>
-            <img class="iconos" src="../img/icons8-compartir-3.svg" alt="icono de compartir. Simbolo de una flecha dentro de una especie de caja.">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ¿Cuento con una garantia al momento de realizar una compra?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Ya que la venta es realizada entre dos usuarios particulares por el momento no contamos con garantia, ya que nuestro sistema garantiza que la compra de entradas sea 100% segura para ambar partes. Si tuviste un inconveniente, te recomendamos visitar nuestro apartado de "Ayuda en Linea".</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  ¿Es seguro realizar una compra?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">¡Si! Contamos con una autenticacion a la hora de realizar una publicacion. Tanto el vendedor como el comprador deben validar su identidad y otros datos necesarios para gantizar la seguridad en nuestro e-commerce.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  ¿Que medios de pago aceptan en EntraSeguro?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Ofrecemos poder pagar con tarjetas de debito, credito, transferencia bancaria o mediante efectivo por deposito bancario en PagoFacil o Rapipago. Recomendamos siempre abonar con tarjetas.</div>
+              </div>
+            </div>
+          </div>
     </article>
         <footer>
         <!-- pie de pagina del sitio web -->
@@ -65,6 +87,7 @@
             <h5 class="texto_pie_de_pagina"> <a href="https://walink.co/d87b62" target="_blank"> CONTACTO </a></h5>
     </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </main>
 </body>
 </html>
