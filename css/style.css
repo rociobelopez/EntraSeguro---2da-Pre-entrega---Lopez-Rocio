@@ -25,7 +25,7 @@ p{
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     line-height: 50px;
     letter-spacing: 1px;
 }
@@ -131,7 +131,6 @@ h4{
     letter-spacing: 1px;
     word-spacing: 10px;
     color: pink;
-    background-color: #e20074;
     margin: 15px 10px 15px 10px;
 }
 
@@ -147,6 +146,7 @@ h5{
     margin: 20px 15px 20px 15px;
 }
 
+/* TIENDA */ 
 .precio1{
     text-align: center;
     letter-spacing: 5px;
@@ -170,8 +170,24 @@ h2 span{
 
 h4 span{
     font-weight: bolder;
-    color: blue;
-    background-color: cornsilk;
+    color: #f6adc8;
+    text-decoration: underline;
+}
+
+.iconos_tienda{
+    width: 35px;
+    display:block;
+    margin:auto;
+}
+
+.textosecundario{
+    text-align: left;
+    background-color: none;
+    color: #e20074;
+}
+
+.textos_importantes{
+    background-color: #e20074;
 }
 
 .SideShows_Lolla{
