@@ -9,29 +9,40 @@
     <title>Preguntas Frecuentes (FAQS)</title>
 </head>
 <body>
-    <header>
+    <header class="">
         <aside class= "logo_EntraSeguro">
             <img src="../img/logo_entraseguro.svg" alt="Logo de entra seguro. Circulo con letras en colores.">
         </aside>
-        <nav>
-            <ul>
-                <li> 
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li> 
-                    <a href="tienda.html">Tienda</a>
-                </li>
-                <li> 
-                    <a href="proximosshows.html">Proximos shows</a>
-                </li>
-                <li> 
-                    <a href="ayudaenlinea.html">Ayuda en linea</a>
-                </li>
-                <li> 
-                    <a href="faqs.html">FAQS</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light #e20074">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="./tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ayuda
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./ayudaenlinea.html">Ayuda en Linea</a></li>
+                        <li><a class="dropdown-item" href="./faqs.html">FAQS</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+            </nav>
     </header>
     <main>
         <h1>EntraSeguro</h1>
@@ -44,36 +55,36 @@
     <article>
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+                <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 ¿Cuento con una garantia al momento de realizar una compra?
                 </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Ya que la venta es realizada entre dos usuarios particulares por el momento no contamos con garantia, ya que nuestro sistema garantiza que la compra de entradas sea 100% segura para ambar partes. Si tuviste un inconveniente, te recomendamos visitar nuestro apartado de "Ayuda en Linea".</div>
-              </div>
+                </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
+                <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  ¿Es seguro realizar una compra?
+                ¿Es seguro realizar una compra?
                 </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">¡Si! Contamos con una autenticacion a la hora de realizar una publicacion. Tanto el vendedor como el comprador deben validar su identidad y otros datos necesarios para gantizar la seguridad en nuestro e-commerce.</div>
-              </div>
+                </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
+                <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  ¿Que medios de pago aceptan en EntraSeguro?
+                ¿Que medios de pago aceptan en EntraSeguro?
                 </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Ofrecemos poder pagar con tarjetas de debito, credito, transferencia bancaria o mediante efectivo por deposito bancario en PagoFacil o Rapipago. Recomendamos siempre abonar con tarjetas.</div>
-              </div>
+                </div>
             </div>
-          </div>
+            </div>
     </article>
         <footer>
         <!-- pie de pagina del sitio web -->

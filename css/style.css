@@ -41,8 +41,7 @@ p{
 
 ul{
     list-style-type:none;
-    padding: 40px;
-    margin: 40px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -52,8 +51,8 @@ ul{
 
 ul li{
     list-style-type:none;
-    padding:40px;
     background-color: #e20074;
+    padding: 20px;
 }
 
 a{
@@ -62,8 +61,6 @@ a{
     text-transform: uppercase;
     font-weight: bold;
     color: #f6adc8;
-    margin: 10px 10px 10px 10px;
-
 }
 section{
     display: flex;
@@ -340,7 +337,13 @@ footer{
     color: #e20074;
 }
 
-.accordion-header{
+.container-fluid{
     background-color: #e20074;
+    margin: 20px 20px 20px 20px;
+}
+
+.nav-item{
     color: #f6adc8;
+    padding: 30px;
+    margin: 30px;
 }
