@@ -19,6 +19,89 @@ header {
   justify-content: center;
 }
 
+footer {
+  background-color: #f6adc8;
+  display: grid;
+  justify-content: center;
+}
+
+.redessociales__contacto {
+  justify-content: center;
+}
+
+.redessociales__contacto div {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer_flexbox {
+  padding: 30px;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  grid-area: footer;
+}
+
+.texto_pie_de_pagina {
+  background-color: #e20074;
+  color: #f6adc8;
+  padding: 40px;
+  margin: 40px;
+}
+
+.iconos {
+  width: 48px;
+  height: 48px;
+}
+
+.content_titulo h1 {
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  color: #e20074;
+  margin: 15px 10px 15px 10px;
+}
+.content_titulo h2 {
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 35px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  color: #f6adc8;
+  margin: 15px 10px 15px 10px;
+}
+
+article .reportarerror {
+  font-family: profile-pro, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  color: #e20074;
+  margin: 15px 10px 15px 10px;
+}
+article .reportarerror .link_wpp {
+  color: #f6adc8;
+  background-color: #e20074;
+  margin: 10px 5px 10px 5px;
+  text-decoration: underline;
+}
+
 p {
   font-family: profile-pro, sans-serif;
   font-style: normal;
@@ -81,34 +164,6 @@ img {
   padding: 15px;
 }
 
-h1 {
-  text-align: center;
-  font-family: cooper-black-std, serif;
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  line-height: 50px;
-  letter-spacing: 3px;
-  word-spacing: 10px;
-  text-transform: uppercase;
-  color: #e20074;
-  margin: 15px 10px 15px 10px;
-}
-
-h2 {
-  text-align: center;
-  font-family: cooper-black-std, serif;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 35px;
-  text-align: center;
-  line-height: 50px;
-  letter-spacing: 3px;
-  word-spacing: 10px;
-  color: #f6adc8;
-  margin: 15px 10px 15px 10px;
-}
-
 h3 {
   font-family: profile-pro, sans-serif;
   font-style: normal;
@@ -164,7 +219,8 @@ h5 {
   color: black;
 }
 
-h2 span {
+.subtitulos {
+  font-family: cooper-black-std, serif;
   color: #e20074;
   font-style: italic;
   padding: 10px;
@@ -241,43 +297,6 @@ h4 span {
   color: #f6adc8;
 }
 
-footer {
-  background-color: #f6adc8;
-  display: grid;
-  justify-content: center;
-}
-
-.redessociales__contacto {
-  justify-content: center;
-}
-
-.redessociales__contacto div {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.footer_flexbox {
-  padding: 30px;
-  margin: 40px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  grid-area: footer;
-}
-
-.texto_pie_de_pagina {
-  background-color: #e20074;
-  color: #f6adc8;
-  padding: 40px;
-  margin: 40px;
-}
-
-.iconos {
-  width: 48px;
-  height: 48px;
-}
-
 .SideShows_Lolla {
   display: flex;
   flex-wrap: wrap;
@@ -293,13 +312,6 @@ footer {
   width: 300px;
   height: 300px;
   margin: 40px;
-}
-
-.link_wpp {
-  color: #f6adc8;
-  background-color: #e20074;
-  margin: 10px 5px 10px 5px;
-  text-decoration: underline;
 }
 
 .lolla_banner {

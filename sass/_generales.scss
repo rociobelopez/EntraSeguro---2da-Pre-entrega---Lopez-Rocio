@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital@1&display=swap');
+@import url("https://use.typekit.net/cex8mrn.css");
+@import url("https://use.typekit.net/cex8mrn.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f9dce9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #f6adc8;
+    display: grid;
+    justify-content:center
+}
+
+footer{
+    background-color: #f6adc8;
+    display: grid;
+    justify-content:center
+}
+
+.redessociales__contacto{
+    justify-content: center;
+}
+
+.redessociales__contacto div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer_flexbox{
+    padding: 30px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+
+}
+
+.texto_pie_de_pagina{
+    background-color: #e20074;
+    color: #f6adc8;
+    padding: 40px;
+    margin: 40px;
+}
+
+.iconos{
+    width: 48px;
+    height: 48px;
+}
