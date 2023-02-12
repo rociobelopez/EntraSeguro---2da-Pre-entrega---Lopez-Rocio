@@ -30,6 +30,7 @@ footer {
 }
 
 .redessociales__contacto div {
+  justify-content: center;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -152,9 +153,8 @@ section {
   justify-content: center;
 }
 
-img {
-  width: 100%;
-  margin-top: 10px;
+.proximos_shows_index {
+  width: 1080px;
 }
 
 .inicio {
@@ -320,7 +320,6 @@ h4 span {
 }
 
 .contacto {
-  background-color: white;
   display: grid;
   grid-template-rows: 300px;
 }
@@ -337,6 +336,10 @@ h4 span {
   color: black;
   font-size: 15px;
   text-align: left;
+}
+
+.texto_pre_cajatexto {
+  background-color: #e20074;
 }
 
 .grids_lineup {
@@ -374,4 +377,13 @@ h4 span {
   color: #f6adc8;
   padding: 30px;
   margin: 30px;
+}
+
+.entradas_coldplay {
+  display: flex;
+  justify-content: center;
+}
+
+.entradas_coldplay img {
+  width: 1000px;
 }/*# sourceMappingURL=estilos.css.map */
